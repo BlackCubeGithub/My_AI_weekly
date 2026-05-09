@@ -101,10 +101,10 @@
   }
 }}%%
 flowchart LR
-    classDef config fill:#fbbf24,stroke:#d4a017,color:#2d2a3e,stroke-width:1.5px;
-    classDef source fill:#ede7fb,stroke:#6d4aaa,color:#2d2a3e,stroke-width:1.5px;
-    classDef process fill:#ffe8db,stroke:#e0652e,color:#2d2a3e,stroke-width:1.5px;
-    classDef output fill:#f9d7e5,stroke:#be185d,color:#2d2a3e,stroke-width:1.5px;
+    classDef config fill:#fbbf24,stroke:#d4a017,color:#2d2a3e,stroke-width:1.5;
+    classDef source fill:#ede7fb,stroke:#6d4aaa,color:#2d2a3e,stroke-width:1.5;
+    classDef process fill:#ffe8db,stroke:#e0652e,color:#2d2a3e,stroke-width:1.5;
+    classDef output fill:#f9d7e5,stroke:#be185d,color:#2d2a3e,stroke-width:1.5;
 
     config["⚙️ 配置<br/>信息源、阈值、模型、输出方式"]
 
