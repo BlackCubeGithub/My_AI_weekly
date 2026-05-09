@@ -5,17 +5,15 @@
 **Enjoy the News itself. Leave others to Horizon**
 
 [![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat-square)](LICENSE)
-[![uv](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json&style=flat-square)](https://github.com/astral-sh/uv)
+[![uv](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json\&style=flat-square)](https://github.com/astral-sh/uv)
 [![Daily Summary](https://github.com/Thysrael/Horizon/actions/workflows/deploy-docs.yml/badge.svg?style=flat-square)](https://thysrael.github.io/Horizon/)
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/m/Thysrael/Horizon?style=flat-square)](https://github.com/Thysrael/Horizon/commits/main)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-![Sources Welcome](https://img.shields.io/badge/📡_sources-welcome-f97316?style=flat-square)
-<a href="https://hellogithub.com/repository/Thysrael/Horizon" target="_blank"><img src="https://api.hellogithub.com/v1/widgets/recommend.svg?rid=7a4b606e28e4477998d35851cf4fdddf&claim_uid=rtjnLkYT7ziQJUG&theme=small" alt="Featured｜HelloGitHub" /></a>
-<br>
+![Sources Welcome](https://img.shields.io/badge/📡_sources-welcome-f97316?style=flat-square) <a href="https://hellogithub.com/repository/Thysrael/Horizon" target="_blank"><img src="https://api.hellogithub.com/v1/widgets/recommend.svg?rid=7a4b606e28e4477998d35851cf4fdddf&claim_uid=rtjnLkYT7ziQJUG&theme=small" alt="Featured｜HelloGitHub" /></a>
 
-![Claude](https://img.shields.io/badge/Claude-f0daba?style=flat-square&logo=anthropic&logoColor=black)
+![Claude](https://img.shields.io/badge/Claude-f0daba?style=flat-square\&logo=anthropic\&logoColor=black)
 ![GPT](https://img.shields.io/badge/GPT-412991?style=flat-square)
-![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=google&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat-square\&logo=google\&logoColor=white)
 ![DeepSeek](https://img.shields.io/badge/DeepSeek-0A6DC2?style=flat-square)
 ![Doubao](https://img.shields.io/badge/Doubao-00D6C2?style=flat-square)
 ![MiniMax](https://img.shields.io/badge/MiniMax-FF6F00?style=flat-square)
@@ -265,36 +263,36 @@ Horizon works great as a **GitHub Actions** cron job. See [`.github/workflows/da
 
 ## Supported Sources
 
-| Source | What it fetches | Comments |
-|--------|----------------|----------|
-| **Hacker News** | Top stories by score | Yes (top N comments) |
-| **RSS / Atom** | Any RSS or Atom feed | — |
-| **Reddit** | Subreddits + user posts | Yes (top N comments) |
-| **Telegram** | Public channel messages | — |
-| **Twitter / X** | Tweets from specific users | Yes (top N replies) |
-| **GitHub** | User events & repo releases | — |
+| Source          | What it fetches             | Comments             |
+| --------------- | --------------------------- | -------------------- |
+| **Hacker News** | Top stories by score        | Yes (top N comments) |
+| **RSS / Atom**  | Any RSS or Atom feed        | —                    |
+| **Reddit**      | Subreddits + user posts     | Yes (top N comments) |
+| **Telegram**    | Public channel messages     | —                    |
+| **Twitter / X** | Tweets from specific users  | Yes (top N replies)  |
+| **GitHub**      | User events & repo releases | —                    |
 
 ## Where Your Briefing Goes
 
 Horizon can publish or deliver the generated briefing in several ways:
 
-| Channel | What it does |
-|---------|--------------|
-| **GitHub Pages Daily Site** | Copies generated Markdown into `docs/` so GitHub Pages can publish a daily-updated briefing site |
-| **Email Subscription** | Sends the daily briefing to subscribers and handles subscribe/unsubscribe requests through SMTP/IMAP |
-| **Webhook Notification** | Pushes success or failure results to Feishu/Lark, DingTalk, Slack, Discord, or any custom webhook endpoint |
-| **MCP Server** | Exposes Horizon pipeline steps as tools so AI assistants can fetch, score, filter, enrich, summarize, and run the full workflow |
+| Channel                     | What it does                                                                                                                    |
+| --------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| **GitHub Pages Daily Site** | Copies generated Markdown into `docs/` so GitHub Pages can publish a daily-updated briefing site                                |
+| **Email Subscription**      | Sends the daily briefing to subscribers and handles subscribe/unsubscribe requests through SMTP/IMAP                            |
+| **Webhook Notification**    | Pushes success or failure results to Feishu/Lark, DingTalk, Slack, Discord, or any custom webhook endpoint                      |
+| **MCP Server**              | Exposes Horizon pipeline steps as tools so AI assistants can fetch, score, filter, enrich, summarize, and run the full workflow |
 
 For setup details, see the [Configuration Guide](docs/configuration.md). For MCP tool references and client setup, see [`src/mcp/README.md`](src/mcp/README.md) and [`src/mcp/integration.md`](src/mcp/integration.md).
 
 ## Documentation
 
-| Guide | Description |
-|-------|-------------|
+| Guide                                  | Description                                                                   |
+| -------------------------------------- | ----------------------------------------------------------------------------- |
 | [Configuration](docs/configuration.md) | AI providers, sources, filtering, email, webhook, GitHub Pages, and MCP setup |
-| [Scoring](docs/scoring.md) | How Horizon evaluates and ranks news items |
-| [Scrapers](docs/scrapers.md) | Source scraper details and extension notes |
-| [MCP Tools](src/mcp/README.md) | Tool reference for MCP-compatible clients |
+| [Scoring](docs/scoring.md)             | How Horizon evaluates and ranks news items                                    |
+| [Scrapers](docs/scrapers.md)           | Source scraper details and extension notes                                    |
+| [MCP Tools](src/mcp/README.md)         | Tool reference for MCP-compatible clients                                     |
 
 ## Project Status
 
@@ -322,6 +320,30 @@ Great candidates: niche RSS discoveries, active subreddit trends, notable GitHub
 - Special thanks to [LINUX.DO](https://linux.do/) for providing a promotion platform.
 - Special thanks to [HelloGitHub](https://hellogithub.com/) for valuable guidance and suggestions.
 - Special thanks to [AIGC Link](https://xhslink.com/m/80ngts127cA) for the promotions on XiaoHongShu.
+
+## Frontend (Vue 3)
+
+A modern Vue 3 frontend is available in the `frontend3/` directory.
+
+```bash
+cd frontend3
+npm install
+npm run dev
+```
+
+The frontend displays the daily digest from `docs/_posts/` with a Horizon-inspired design including:
+- Sunrise gradient header
+- Dark mode support
+- Language toggle (Chinese/English/All)
+- Score badges for content rating
+- Tag pills for categorization
+
+### Features
+
+- Automatic loading of markdown posts from `docs/_posts/`
+- Markdown rendering with syntax highlighting
+- Responsive design
+- Bilingual support
 
 ## License
 

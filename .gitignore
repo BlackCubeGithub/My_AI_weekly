@@ -20,6 +20,10 @@ wheels/
 .installed.cfg
 *.egg
 
+
+# vue
+
+frontend/node_modules/
 # Virtual environments
 venv/
 env/
@@ -40,6 +44,7 @@ ENV/
 data/seen.json
 data/summaries/*.md
 data/subscribers.json
+data/config.json
 
 docs/_posts/*.md
 
@@ -55,3 +60,5 @@ logs/*.log
 
 # todo
 todo.txt
+
+
