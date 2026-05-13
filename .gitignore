@@ -40,13 +40,8 @@ ENV/
 # Environment variables
 .env
 
-# Data files (keep structure, ignore content)
-data/seen.json
-data/summaries/*.md
-data/subscribers.json
-data/config.json
-
-docs/_posts/*.md
+# Data files
+data/*
 
 # Logs
 logs/*.log
@@ -60,5 +55,3 @@ logs/*.log
 
 # todo
 todo.txt
-
-
